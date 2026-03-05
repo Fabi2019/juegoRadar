@@ -1,0 +1,28 @@
+body { 
+    background: #000; 
+    color: #00ff41; 
+    font-family: monospace; 
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+canvas { 
+    border: 2px solid #004400; 
+    background: #000;
+    max-width: 95vw; 
+    height: auto; 
+}
+.target-info, .log-container {
+    background: rgba(0, 20, 0, 0.9);
+    border: 1px solid #004400;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 480px;
+}
+#impact-log {
+    height: 100px;
+    overflow-y: scroll;
+    text-align: left;
+    font-size: 0.8em;
+}
+.log-entry { border-bottom: 1px solid #002200; padding: 2px; }
